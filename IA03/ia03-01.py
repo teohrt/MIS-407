@@ -15,7 +15,7 @@ with open(fileName) as csv_file :
             # County is the dictionary key, liters is the value being added
             k = row[8]
             if k != "" :
-                table[(k[0].upper() + k[1:len(k)].lower())] += float(row[22])
+                table[k.title()] += float(row[22])
             total += float(row[22])
         line_count += 1
 
