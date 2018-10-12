@@ -1,0 +1,7 @@
+$ python ia03-02.py
+Top 5 counties alcohol sales by volume:
+  1. Polk             134360.25 liters
+  2. Linn              61877.34 liters
+  3. Scott             42874.45 liters
+  4. Johnson           38054.58 liters
+  5. Black Hawk        33332.01 liters

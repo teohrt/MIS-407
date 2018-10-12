@@ -1,0 +1,102 @@
+$ python ia03-01.py
+Alcohol sales by county:
+  1. Adair              1187.71 liters
+  2. Adams               347.87 liters
+  3. Allamakee          3494.79 liters
+  4. Appanoose          1883.07 liters
+  5. Audubon             246.75 liters
+  6. Benton             2644.61 liters
+  7. Black Hawk        33332.01 liters
+  8. Boone              5968.69 liters
+  9. Bremer              5477.3 liters
+ 10. Buchanan           2750.85 liters
+ 11. Buena Vist         4616.89 liters
+ 12. Butler             1143.13 liters
+ 13. Calhoun             745.12 liters
+ 14. Carroll            6447.43 liters
+ 15. Cass               1717.05 liters
+ 16. Cedar              2540.22 liters
+ 17. Cerro Gord        14859.92 liters
+ 18. Cherokee           3260.12 liters
+ 19. Chickasaw          1470.08 liters
+ 20. Clarke             1340.87 liters
+ 21. Clay               4440.19 liters
+ 22. Clayton            1899.82 liters
+ 23. Clinton            9658.67 liters
+ 24. Crawford           4732.74 liters
+ 25. Dallas             5885.87 liters
+ 26. Davis                266.0 liters
+ 27. Decatur              256.0 liters
+ 28. Delaware           2748.98 liters
+ 29. Des Moines         6889.42 liters
+ 30. Dickinson         10031.13 liters
+ 31. Dubuque            25790.7 liters
+ 32. Emmet                723.2 liters
+ 33. Fayette            3516.25 liters
+ 34. Floyd              3154.85 liters
+ 35. Franklin           1100.46 liters
+ 36. Fremont               85.5 liters
+ 37. Greene              1687.2 liters
+ 38. Grundy              1196.0 liters
+ 39. Guthrie             254.34 liters
+ 40. Hamilton            2518.1 liters
+ 41. Hancock            1434.25 liters
+ 42. Hardin              5724.0 liters
+ 43. Harrison            770.48 liters
+ 44. Henry              2224.55 liters
+ 45. Howard             2209.62 liters
+ 46. Humboldt           1152.07 liters
+ 47. Ida                2810.06 liters
+ 48. Iowa               3796.03 liters
+ 49. Jackson            3620.96 liters
+ 50. Jasper             4317.35 liters
+ 51. Jefferson          1393.06 liters
+ 52. Johnson           38054.58 liters
+ 53. Jones              4538.01 liters
+ 54. Keokuk              410.15 liters
+ 55. Kossuth            4630.58 liters
+ 56. Lee                6516.14 liters
+ 57. Linn              61877.34 liters
+ 58. Louisa              526.53 liters
+ 59. Lucas              2348.75 liters
+ 60. Lyon               2349.43 liters
+ 61. Madison            2087.68 liters
+ 62. Mahaska            1755.36 liters
+ 63. Marion             4018.16 liters
+ 64. Marshall           6484.32 liters
+ 65. Mills              1326.53 liters
+ 66. Mitchell           1062.63 liters
+ 67. Monona             1769.76 liters
+ 68. Monroe              901.03 liters
+ 69. Montgomery          966.01 liters
+ 70. Muscatine          6075.62 liters
+ 71. Obrien             3732.62 liters
+ 72. Osceola             936.89 liters
+ 73. Page               2958.24 liters
+ 74. Palo Alto          1498.92 liters
+ 75. Plymouth            2570.4 liters
+ 76. Pocahontas          941.92 liters
+ 77. Polk             134360.25 liters
+ 78. Pottawatta        19978.69 liters
+ 79. Poweshiek           4023.9 liters
+ 80. Ringgold            418.75 liters
+ 81. Sac                2064.69 liters
+ 82. Scott             42874.45 liters
+ 83. Shelby             1639.06 liters
+ 84. Sioux              3319.54 liters
+ 85. Story             18031.06 liters
+ 86. Tama               1734.99 liters
+ 87. Taylor              411.25 liters
+ 88. Union              3088.54 liters
+ 89. Van Buren           593.14 liters
+ 90. Wapello            4323.58 liters
+ 91. Warren             4064.21 liters
+ 92. Washington         2805.54 liters
+ 93. Wayne               377.12 liters
+ 94. Webster            8022.32 liters
+ 95. Winnebago           2193.3 liters
+ 96. Winneshiek         3402.83 liters
+ 97. Woodbury           21705.9 liters
+ 98. Worth               968.16 liters
+ 99. Wright             2158.55 liters
+Total: 721523.4 liters
