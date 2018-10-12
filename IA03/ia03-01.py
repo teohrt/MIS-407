@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-fileName = "Iowa_Liquor_Sales-2017.csv"
+fileName = "Iowa_Liquor_Sales-2017-partial.csv"
 
 total = 0
 table = defaultdict(lambda: 0)
@@ -17,7 +17,6 @@ with open(fileName) as csv_file :
             if k != "" :
                 table[(k[0].upper() + k[1:len(k)].lower())] += float(row[22])
             total += float(row[22])
-            line_count += 1
         line_count += 1
 
 print("Alcohol sales by county:")
