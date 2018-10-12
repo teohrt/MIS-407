@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-fileName = "Iowa_Liquor_Sales-2017-partial.csv"
+fileName = "Iowa_Liquor_Sales-2017.csv"
 
 total = 0
 table = defaultdict(lambda: 0)
@@ -20,9 +20,9 @@ with open(fileName) as csv_file :
             line_count += 1
         line_count += 1
 
+print("Alcohol sales by county:")
 count = 1
 for k, v in sorted(table.items()) :
     print("{0:3}. {1:15} {2:>10} liters".format(count, k, round(v, 2)))
     count += 1
-
 print(f"Total: {round(total, 2)} liters")
