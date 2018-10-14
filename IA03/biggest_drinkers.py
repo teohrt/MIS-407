@@ -4,7 +4,7 @@ from collections import defaultdict
 
 # salesFile = "Iowa_Liquor_Sales-2017-partial.csv"
 # populationFile = "iowa_county_pop.csv"
-# outputFilename = "output.txt"
+# outputFilename = "output.csv"
 salesFile = input("What is the county population filename?: ")
 populationFile = input("What is the Iowa alcohol sales filename?: ")
 outputFilename = input("What is the output filename?: ")
@@ -37,10 +37,20 @@ with open(populationFile) as csv_file :
                 perCapitaTable[k] += float(salesTable[k] /float(row[2].replace(',', '')))
         line_count += 1
 
-# Output the results
-outputFile.write("Iowa counties' alcohol sale volume per capita:\n")
+## Output the results to a text file
+# outputFile.write("Iowa counties' alcohol sale volume per capita:\n")
+# count = 1
+# for k, v in sorted(perCapitaTable.items(), key=operator.itemgetter(1), reverse=True) :
+#     outputFile.write("{0:3}. {1:15} {2:>10} liters per person\n".format(count, k, round(v, 2)))
+#     count += 1
+# outputFile.close()
+
+# output the results to a .csv file
 count = 1
-for k, v in sorted(perCapitaTable.items(), key=operator.itemgetter(1), reverse=True) :
-    outputFile.write("{0:3}. {1:15} {2:>10} liters per person\n".format(count, k, round(v, 2)))
-    count += 1
-outputFile.close()
+with open(outputFilename, mode='w') as csv_file:
+    writer = csv.DictWriter(csv_file, fieldnames=['rank', 'county', 'litersPerPerson'])
+
+    writer.writeheader()
+    for k, v in sorted(perCapitaTable.items(), key=operator.itemgetter(1), reverse=True) :
+        writer.writerow({'rank': count, 'county': k, 'litersPerPerson': round(v, 2)})
+        count += 1
