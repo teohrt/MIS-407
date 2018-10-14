@@ -5,8 +5,8 @@ from collections import defaultdict
 # salesFile = "Iowa_Liquor_Sales-2017-partial.csv"
 # populationFile = "iowa_county_pop.csv"
 # outputFilename = "output.csv"
-salesFile = input("What is the county population filename?: ")
-populationFile = input("What is the Iowa alcohol sales filename?: ")
+salesFile = input("What is the Iowa alcohol sales filename?: ")
+populationFile = input("What is the county population filename?: ")
 outputFilename = input("What is the output filename?: ")
 outputFile = open(outputFilename, "w")
 
