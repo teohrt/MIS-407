@@ -2,7 +2,9 @@ import csv
 import operator
 from collections import defaultdict
 
-fileName = "Iowa_Liquor_Sales-2017-partial.csv"
+#fileName = "Iowa_Liquor_Sales-2017-partial.csv"
+fileName = input("What is the Iowa alcohol sales filename?: ")
+
 
 total = 0
 table = defaultdict(lambda: 0)
